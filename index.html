@@ -235,6 +235,7 @@
     max-width: 860px;
     margin: auto;
     padding: 2rem 2rem 5rem 2rem;
+    background-color: white; /* 强制设置背景色为白色 */
   }
   ul {
     padding: 0;
@@ -279,17 +280,7 @@
     word-break: break-all;
     line-height: 1.4;
   }
-  @media (prefers-color-scheme: dark) {
-    body {
-      background-color: #efeaea;
-    }
-    .font-secondary {
-      color: rgba(255, 255, 255, 0.6);
-    }
-    .icon-emphasize {
-      color: rgba(82, 145, 255, 1);
-    }
-  }
+  /* 移除深色模式设置，保持始终为白色背景 */
 
 </style>
 <style id="style"></style>
